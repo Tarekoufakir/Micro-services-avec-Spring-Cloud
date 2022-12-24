@@ -1,4 +1,4 @@
-package org.sid.billingservice;
+package org.sid.billingservice.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -13,6 +13,7 @@ import javax.persistence.Id;
 
 @Entity
 @Data  @NoArgsConstructor  @AllArgsConstructor  @ToString
+public
 class Product {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)

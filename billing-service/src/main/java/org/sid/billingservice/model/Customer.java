@@ -1,4 +1,4 @@
-package org.sid.billingservice;
+package org.sid.billingservice.model;
 
 
 import lombok.AllArgsConstructor;

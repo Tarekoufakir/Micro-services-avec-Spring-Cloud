@@ -1,0 +1,29 @@
+.navbar {
+    background: #631CD6;
+    color: #fff;
+}
+
+.navbar > div {
+    margin-right: 2rem;
+}
+
+.navbar-nav .active {
+    color: #fff;
+}
+
+.menu-nav {
+    display: flex;
+    flex-direction: row;
+}
+
+.menu-nav a {
+    font-size: 16px;
+    padding-right: 10px;
+    color: #dedede;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.menu-nav a:hover {
+    color: #fff;
+}
